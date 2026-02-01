@@ -33,5 +33,13 @@ if (movement_y != 0) {
 	}
 }
 
+// Vectoring Fix
+total_speed = sqrt(hsp*hsp + vsp*vsp);
+if (total_speed > maximum_speed) {
+    spd_scale = maximum_speed/total_speed;
+    hsp = clamp(hsp*spd_scale, -maximum_speed, maximum_speed);
+    vsp = clamp(vsp*spd_scale, -maximum_speed, maximum_speed)   ;
+}
+
 hspeed = hsp;
 vspeed = vsp;
