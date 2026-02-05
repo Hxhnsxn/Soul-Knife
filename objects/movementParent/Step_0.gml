@@ -41,3 +41,4 @@ if (movement_y != 0) {
 }
 hspeed = hsp;
 vspeed = vsp;
+

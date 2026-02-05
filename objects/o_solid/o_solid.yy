@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"movementParent",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"o_solid",
+  "eventList":[],
   "managed":true,
-  "name":"movementParent",
+  "name":"o_solid",
   "overriddenProperties":[],
   "parent":{
     "name":"Soul Knife Demo",
@@ -31,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"s_solid",
+    "path":"sprites/s_solid/s_solid.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
