@@ -10,3 +10,7 @@ var movement_y = key_down - key_up;
 	//idk wtf key_right
 	
 //}
+
+if (hp <= 0) {
+	instance_destroy();
+}

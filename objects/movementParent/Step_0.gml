@@ -1,8 +1,8 @@
 // Checking Input Keys
-key_left = keyboard_check(vk_left)
-key_right = keyboard_check(vk_right)
-key_up = keyboard_check(vk_up)
-key_down = keyboard_check(vk_down)
+key_left = keyboard_check(ord("A"))
+key_right = keyboard_check(ord("D"))
+key_up = keyboard_check(ord("W"))
+key_down = keyboard_check(ord("S"))
 
 // Constant Related to Physics
 var movement_acceleration = 0.4;
