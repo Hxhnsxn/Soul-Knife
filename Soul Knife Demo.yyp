@@ -11,6 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"envitileset","folderPath":"folders/envitileset.yy","name":"envitileset","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"audio","folderPath":"folders/audio.yy","name":"audio","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -26,6 +27,7 @@
   },
   "name":"Soul Knife Demo",
   "resources":[
+    {"id":{"name":"audio_controller","path":"objects/audio_controller/audio_controller.yy",},},
     {"id":{"name":"button_parent","path":"objects/button_parent/button_parent.yy",},},
     {"id":{"name":"DaggerSlashObject","path":"objects/DaggerSlashObject/DaggerSlashObject.yy",},},
     {"id":{"name":"door","path":"objects/door/door.yy",},},
@@ -47,6 +49,7 @@
     {"id":{"name":"simple16x9","path":"rooms/simple16x9/simple16x9.yy",},},
     {"id":{"name":"smallroom9x9","path":"rooms/smallroom9x9/smallroom9x9.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
+    {"id":{"name":"main_theme2_22_26","path":"sounds/main_theme2_22_26/main_theme2_22_26.yy",},},
     {"id":{"name":"DaggerSlashSprite","path":"sprites/DaggerSlashSprite/DaggerSlashSprite.yy",},},
     {"id":{"name":"Door_centered","path":"sprites/Door_centered/Door_centered.yy",},},
     {"id":{"name":"Door_wide","path":"sprites/Door_wide/Door_wide.yy",},},
