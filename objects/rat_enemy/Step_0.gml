@@ -21,7 +21,7 @@ else
 		attacking = true
 		sprite_index = rat_attack
 		frame_attack += 1
-		show_debug_message(frame_attack)
+		//show_debug_message(frame_attack)
 		if(frame_attack < 3)
 		{
 			speed = 0

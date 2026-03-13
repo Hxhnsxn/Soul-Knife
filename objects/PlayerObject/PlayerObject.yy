@@ -35,6 +35,9 @@
     "name":"PlayerHighlightSprite",
     "path":"sprites/PlayerHighlightSprite/PlayerHighlightSprite.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"PlayerHighlightSprite",
+    "path":"sprites/PlayerHighlightSprite/PlayerHighlightSprite.yy",
+  },
   "visible":true,
 }
