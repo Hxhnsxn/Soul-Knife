@@ -3,20 +3,12 @@ event_inherited(); // defines collision() from obj_Movement_Parent
 
 // If a player-controlled rat persisted from a previous room, this obj_Player is redundant
 var _rat = noone;
-var _termite = noone
 with (obj_Rat_Enemy) {
     if (isPlayer) { _rat = id; break; }
-}
-with (obj_Termite_Enemy) {
-	if(isPlayer) { _termite = id; break; }	
 }
 if (_rat != noone) {
     instance_destroy();
     exit;
-}
-if (_termite != noone) {
-	instance_destroy()
-	exit;
 }
 
 depth = -1; // in front of highlight
@@ -31,6 +23,7 @@ attacking = false
 frame_attack = 0
 hsp = 0
 vsp = 0
+
 
 
 max_hp = 50
