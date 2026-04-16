@@ -1,4 +1,5 @@
 /// @description Establish key vars
+event_inherited(); // defines collision() from obj_Movement_Parent
 
 // If a player-controlled rat persisted from a previous room, this obj_Player is redundant
 var _rat = noone;
@@ -32,6 +33,7 @@ hsp = 0
 vsp = 0
 
 
+<<<<<<< HEAD
 hp = 100
 max_hp = hp
 
@@ -40,3 +42,9 @@ healthbar_width = 100;
 healthbar_height = 12;
 healthbar_x = (180 / 2) - (healthbar_width / 2);
 healthbar_y = 20;
+=======
+max_hp = 50
+hp = (global.player_hp > 0) ? global.player_hp : max_hp
+bleed_rate = 1/120 // 1 HP every 2 seconds
+hit_cooldown = 0   // frames before next enemy hit can land
+>>>>>>> master
